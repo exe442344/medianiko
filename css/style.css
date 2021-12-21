@@ -2,21 +2,85 @@
   margin: 0;
   padding: 0;
   list-style: none;
-} 
-#contenedor1 {
-  background: red;
-  width: 5vw;
-  height: 5vw;
-}
+}  
 
-#contenedor2 {
-  background: blue;
-  width: 5vw;
-  height: 5vw;
+@media(max-width:575px){
+  #contenedor1 {
+    background: red;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor2 {
+    background: blue;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor3 {
+    background: green;
+    width: 5vw;
+    height: 5vw;
+  }
 }
+/*para discpositivos moviles pequeños*/
+@media(max-width:575px) and (max-width:765px){
+  #contenedor1 {
+    background: red;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor2 {
+    background: blue;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor3 {
+    background: green;
+    width: 5vw;
+    height: 5vw;
+  }
+}
+/*para tablets*/
+@media(max-width:765px) and (max-width: 991px){
+  #contenedor1 {
+    background: red;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor2 {
+    background: blue;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor3 {
+    background: green;
+    width: 5vw;
+    height: 5vw;
+  }
+}
+/*para pc de escritorio*/
+@media(max-width: 991px){
 
-#contenedor3 {
-  background: green;
-  width: 5vw;
-  height: 5vw;
+  #contenedor1 {
+    background: red;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor2 {
+    background: blue;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  #contenedor3 {
+    background: green;
+    width: 5vw;
+    height: 5vw;
+  }
 }
